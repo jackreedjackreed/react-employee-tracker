@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Welcome() {
+function Directory() {
     return (
       <div>
         <h1>Welcome Page</h1>
@@ -16,4 +16,4 @@ function Welcome() {
     );
   }
   
-  export default Welcome;
+  export default Directory;
