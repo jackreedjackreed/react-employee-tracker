@@ -6,28 +6,20 @@ import React, {Component} from "react";
 
 
 class Welcome extends Component {
-
-    classes = {
-        wrapper: 'border-2 m-16 p-16',
-        title: 'text-gray-800 text-xl text-center font-bold',
-      };
-
-    BasicComponent = () => {
-        <div className={this.classes.wrapper}>
-          <h1 className={this.classes.title}>Basic Component</h1>
-        </div>
-    };
         render() {
             return (
                 <div>
-                    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-            </div>
-            <div>
-     <div class="text-xl font-medium text-black">ChitChat</div>
-        <p class="text-blue-500">You have a new message!</p>
-    </div>
-            </div>
+                    <div class="p-10 bg-blue-500">
+                        <main class="mt-10 w-screen mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 shadow-2xl">
+                            <div class="sm:text-center lg:text-center">
+                                <h1 class="text-4xl mt-15 tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                                    <span class="block text-white xl:inline">Welcome to </span>
+                                    <span class="block text-red-300 xl:inline">SearchFakePeople</span>
+                                 </h1>
+                            </div>
+                        </main>
+                        
+                    </div>
                 </div>
             )
         }        
