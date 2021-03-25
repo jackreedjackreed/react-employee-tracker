@@ -1,4 +1,5 @@
 import React from 'react';
+import Welcome from './Welcome';
 
 
 function Directory() {
@@ -12,6 +13,12 @@ function Directory() {
           semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
           rhoncus mollis diam, sit amet facilisis lectus blandit at.
         </p>
+
+        <Welcome/>
+        
+        <br/> -----------
+        <p> above is the welcome component </p>
+
       </div>
     );
   }
