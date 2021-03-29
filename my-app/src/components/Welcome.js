@@ -15,7 +15,7 @@ class Welcome extends Component {
                                  </h1>
                             </div>
                             <br/>
-                            <p class="text-3xl text-center font-bold text-white">Use the space below to search for employees</p>
+                            <p class="text-3xl text-center font-bold text-white">Use the space below to search for fake employees</p>
                         </main>
                         
                     </div>
