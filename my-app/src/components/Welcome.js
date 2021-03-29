@@ -5,8 +5,8 @@ class Welcome extends Component {
         render() {
             return (
                 <div>
-                    <div className="p-6 bg-gradient-to-r from-red-300 to-red-300"></div>
-                    <div className="pt-6 pb-1 bg-blue-500">
+                    
+                    <div className="pt-24 pb-1 bg-blue-500">
                         <main className="mt-10 mb-6 p-12 w-screen mx-auto max-w-7xl px-4 shadow-2xl bg-blue-400 rounded-lg">
                             <div className="sm:text-center lg:text-center">
                                 <h1 className="text-4xl mt-15 tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">

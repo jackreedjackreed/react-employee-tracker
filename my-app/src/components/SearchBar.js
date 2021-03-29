@@ -11,6 +11,7 @@ class SearchBar extends Component {
                     <input type="text" className="pr-12 m-6 text-red-400 font-extrabold shadow-2xl"></input>
                     <button type="button" className="font-extrabold p-2 shadow-2xl rounded-lg bg-red-400">  Search</button>
                 </form>
+            <div className="pb-8 bg-blue-500"></div>
             <div className="mt-4 p-4 bg-blue-900"></div>
             </div>
         )

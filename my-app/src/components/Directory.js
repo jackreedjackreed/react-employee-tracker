@@ -9,7 +9,7 @@ function Directory() {
 
   function searchAPI(){
     API.search()
-    .then(res => console.log(res.data.results))
+    .then(res => console.log(res.data.results)) // HERE IS WHERE I STOPPED --> NEED ERROR, START WORKING WITH STATE
   }
 
   searchAPI()
