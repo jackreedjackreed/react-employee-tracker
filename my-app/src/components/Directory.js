@@ -1,5 +1,6 @@
 import React from 'react';
 import Welcome from './Welcome';
+import SearchBar from './SearchBar';
 
 
 function Directory() {
@@ -7,6 +8,7 @@ function Directory() {
       <div>
 
         <Welcome/>
+        <SearchBar/>
         -----------
         <p> above is the welcome component </p>
 
