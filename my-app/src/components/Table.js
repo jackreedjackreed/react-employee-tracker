@@ -1,8 +1,7 @@
 import React, { Component } from "react"
 
-class Table extends Component {
+function Table() {
 
-    render() {
         return( 
             <div className="bg-blue-400 p-5">
 
@@ -53,7 +52,6 @@ class Table extends Component {
          </div>
         </div>
         )
-    }
 }
 
 export default Table

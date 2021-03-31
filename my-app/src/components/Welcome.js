@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 // import API from "../utils/API";
 
-class Welcome extends Component {
-        render() {
+function Welcome() {
             return (
                 <div>
                     
@@ -21,7 +20,7 @@ class Welcome extends Component {
                     </div>
                 </div>
             )
-        }        
+             
     };
 
 export default Welcome
