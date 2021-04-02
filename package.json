@@ -23,7 +23,8 @@
     "tailwind:dev": "postcss src/tailwind.css -o src/tailwind.output.css",
     "prestart": "npm run tailwind:dev",
     "prebuild": "npm run tailwind:build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
