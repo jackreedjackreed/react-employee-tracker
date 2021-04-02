@@ -41,7 +41,7 @@
 
    ## Demo 
 
-  <img src="./my-app/public/searchfakepeople" alt="screnshot of application">
+  <img src="public/searchfakepeople.png" alt="screnshot of application">
 
    ## MIT License
 
