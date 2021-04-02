@@ -18,10 +18,11 @@ function GetEmployeeList() {
     useEffect(() => {
         API.search()
             .then(res => {
-                console.log("employees retrieved: " + res.data.results[0].picture.thumbnail);
+                // console.log("employees retrieved: " + res.data.results[0].picture.thumbnail);
                 let result = res.data.results
                 setEmployeeList({result})
                 console.log(EmployeeList)
+                console.log(EmployeeList.result[0].gender)
 
                 // setEmployeeInfo({
                     // image: res.data.results[0].picture.thumbnail,
