@@ -12,8 +12,8 @@ function Directory() {
 
         <Welcome/>
         <SearchBar/>
-        <Table/>
-        <p> above is the welcome component </p>
+        {/* <Table/> */}
+        {/* <p> above is the welcome component </p> */}
         <GetEmployeeList/>
 
       </div>
