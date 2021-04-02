@@ -54,51 +54,32 @@ function GetEmployeeList() {
                     <th className="w-1/5 ...">Email</th>
                 </tr>
                 </thead>
-                <tbody className="text-white font-extrabold">
+                <tbody className="text-white font-extrabold text-center justify-center">
                     {
             EmployeeList.length > 0 &&
                     EmployeeList.map((employee, index) => (
-                    <tr key={index}>
-                        <td>
-                            <img src={employee.picture.thumbnail} alt="employee profile"></img>
+                    <tr>
+                        <td className="justify-center">
+                            <img  src={employee.picture.thumbnail} alt="employee profile"></img>
                         </td>
                         <td>
                             {employee.name.first} {employee.name.last}
                         </td>
+                        <td>
+                            {employee.location.street.number}{" "}{employee.location.street.name}, {employee.location.city}
+                        </td>
+                        <td>
+                            {employee.email}
+                        </td>
+                        <td>
+                            {employee.phone}
+                        </td>
                     </tr>
                     ))
         }
-                <tr>
-                    <td>Intro to CSS</td>
-                    <td>Adam</td>
-                    <td>858</td>
-                    <td>Adam</td>
-                    <td>858</td>
-                </tr>
-                <tr className="bg-blue-200">
-                    <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
-                    <td>Adam</td>
-                    <td>112</td>
-                    <td>Adam</td>
-                    <td>858</td>
-                </tr>
-                <tr>
-                    <td>Intro to JavaScript</td>
-                    <td>Chris</td>
-                    <td>1,280</td>
-                    <td>Adam</td>
-                    <td>858</td>
-                </tr>
-                <tr className="bg-blue-200">
-                    <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
-                    <td>Adam</td>
-                    <td>112</td>
-                    <td>Adam</td>
-                    <td>858</td>
-                </tr>
                 </tbody>
             </table>
-            <div className="p-96"></div>
+            <div className="mt-4 p-8 bg-blue-800"></div>
          </div>
         </div>
         
