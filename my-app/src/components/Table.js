@@ -1,8 +1,11 @@
 import React from "react"
 
-function Table() {
+function Table(props) {
+    // console.log("here are the props " + props.data.length)
+    console.log(props.fakeData);
 
         return( 
+
             <div className="bg-blue-400 p-5">
 
             
@@ -18,6 +21,14 @@ function Table() {
                 </tr>
                 </thead>
                 <tbody className="text-white font-extrabold">
+                    {/* {props.employees.length > 0 &&
+                    props.employees.map((index) => (
+                    <tr key={index}>
+                        <td>
+                            <img src={index.picture.thumbnail} alt="employee profile"></img>
+                        </td>
+                    </tr>
+                    ))} */}
                 <tr>
                     <td>Intro to CSS</td>
                     <td>Adam</td>
